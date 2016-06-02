@@ -40,5 +40,5 @@ Usage of ./RadiusAuthProxy:
 
 ### Notes
 
-Does not for servers that redirect to another URL (including changing to https). 
+Does not work for servers that redirect to another URL (including changing to https). 
 Also a backend with "https" will only work if the reverse proxy is using https, currently not supported directly - so use nginx/haproxy or another SSL frontend.
